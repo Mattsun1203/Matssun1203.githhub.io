@@ -1,0 +1,201 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.contentsArea{
+  width:1170px;
+  margin:0 auto;
+}
+
+header{
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+  height:65px;
+  position:fixed;
+  z-index:100;
+  top:0;
+}
+
+header img{
+  float:left;
+  width:124px;
+  margin-top:20px;
+}
+
+header a{
+  color:white;
+  background-color:rgba(255,255,255,0.3);
+  display:inline-block;
+  float:right;
+  line-height:65px;
+  padding:0 25px;
+}
+
+header a:hover{
+  transition:all 0.5s;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.topwrapp{
+  background:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+}
+
+.topwrapp-contents{
+  padding:180px 0 100px 0;
+  text-align:center;
+  color:white;
+}
+
+.topwrapp-contents h1,p{
+  opacity:0.7;
+}
+
+.topwrapp-contents .message{
+  margin-bottom:15px;
+}
+
+.topwrapp-contents .message h1{
+  font-size:45px;
+  letter-spacing:5px;
+}
+
+.topwrapp-contents .btn{
+  padding:8px 24px;
+  margin-top:15px;
+  display:inline-block;
+  color:white;
+  opacity:0.8;
+}
+
+.topwrapp-contents .or{
+  margin-top:15px;
+}
+
+.topwrapp-contents .btn:hover{
+  opacity:1;
+}
+
+.fa{
+  padding-right:5px;
+}
+
+.toroku{
+  background-color:#239b76;
+}
+
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+
+.contents-lessons{
+  height:500px;
+  padding-top:80px;
+}
+
+.contents-main{
+  text-align:center;
+}
+
+.contents-main h2{
+  font-weight:normal;
+}
+
+.lessons{
+  margin-top:50px;
+  z-index:100;  
+}
+
+.lesson{
+  float:left;
+  width:25%;
+}
+
+.lesson .lesson-icon{
+  position:relative;
+}
+
+
+.lesson-icon p{
+  position:absolute;
+  color:white;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.lesson-txt{
+  width:80%;
+  margin:0 auto;
+  margin-top:15px;
+  font-size:13px;
+}
+
+.learn{
+  padding:80px 0;
+  text-align:center;
+}
+
+.learn h2{
+  font-weight:normal;
+}
+
+.learn .p1{
+  margin-bottom:50px;
+}
+
+.learn .learn-btn{
+  background-color:#5dca88;
+  opacity:0.8;
+  box-shadow:0 7px #1a7940;
+  padding:15px 40px;
+  color:white;
+}
+
+.learn .learn-btn:hover{
+  opacity:1;
+}
+
+.learn .learn-btn:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+  z-index:100;
+}
+
+footer{
+  border-top:1px solid #eee;
+}
+
+footer img{
+  margin-top:30px 0;
+  width:124px;
+}
+
+footer p{
+  color:#b3aeb5;
+  margin-bottom:30px;
+  font-size:12px;
+}
